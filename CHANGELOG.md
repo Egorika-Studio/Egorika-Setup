@@ -1,3 +1,15 @@
+## v0.4.12
+
+Egorika Setup 0.4.12
+
+Download **EgorikaSetup.exe**. The minimal welcome screen shows the user-supplied Egorika wordmark once and a bottom sign-in button. An installer-only English / Русский dropdown immediately translates the greeting, buttons and installation screen. After account verification, the installation launcher lets you choose the application folder.
+
+New users can request testing access and check the decision. The owner approves requests in Egorika Control. After approval, refresh the profile in the same installer and install the latest signed editor. No second download of Setup is needed.
+
+Permanent download: https://github.com/Egorika-Studio/Egorika-Setup/releases/latest/download/EgorikaSetup.exe
+
+Licence notices are embedded. Local projects and settings stay on this computer. Editor update signatures/checksums use the original verification key; Windows Authenticode signing is separate and is not claimed. GitHub source archives contain release documentation, not editor source.
+
 # Egorika release journal
 
 Release notes retained before cleanup of superseded release assets and tags.
