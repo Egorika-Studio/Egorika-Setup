@@ -1,15 +1,15 @@
 # Egorika Setup
 
-Download the latest installer from [Releases](https://github.com/Egorika-Studio/Egorika-Setup/releases/latest).
+[Download EgorikaSetup.exe](https://github.com/Egorika-Studio/Egorika-Setup/releases/latest/download/EgorikaSetup.exe)
 
-The installer is public. Downloading the full editor requires signing in through GitHub with an invited **Egorika account**. No personal access token is needed.
+The installer is public; the editor and its signed updates are private. GitHub proves your identity and the owner approves testing access through your Egorika profile. No personal access token is needed.
 
-1. Extract the Setup ZIP (including third-party notices) and launch EgorikaSetup.exe.
-2. Sign in with GitHub, then download and install the latest signed Egorika Studio release.
-3. Launch Egorika Studio using the shortcut created by Setup.
+1. Download and run EgorikaSetup.exe. Licence notices are embedded.
+2. Sign in through GitHub. If access is pending, ask the owner to approve your registered profile in Egorika Control, then retry the download.
+3. Install the latest signed editor and launch it using the shortcut. The bootstrap version does not pin the editor version.
 
-The full editor packages remain in the separate private release repository. Projects and editor settings remain on your computer, and the installed editor works offline.
+Projects and settings stay on your computer. First editor activation requires approved access; afterward the unlimited offline trial remains available.
 
-Setup uses the original embedded update-verification key to validate the downloaded editor. Windows Authenticode publisher signing is separate; no Authenticode certificate is claimed.
+Only the installer EXE is attached to the current public release. GitHub's automatic source archives contain distribution documentation, not editor source. [Release journal](CHANGELOG.md).
 
-Keep your GitHub account secure. Never send passwords, recovery codes or access tokens in support messages.
+The existing embedded update-verification key checks editor signatures and checksums. Windows Authenticode publisher signing is separate and is not claimed.
